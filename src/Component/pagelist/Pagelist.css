@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    border-top: 1px solid lightgray;
-    margin-top: 50px;
+    /* border-top: 1px solid lightgray; */
+
 }
 .pagelist > .activePage {
     background-color: #06b1e6;

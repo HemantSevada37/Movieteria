@@ -51,6 +51,11 @@
     
 }
 
+
+.dark .genrelist {
+    background-color: #333;
+}
+
 .dark .genrelist > .normalgenre{
     color: #bbb;
 }
@@ -58,4 +63,7 @@
 .dark .genrelist > .normalgenre:hover {
     color: #fff;
     background-color: #999;
+}
+.dark .genrelist > .activegenre{
+    color: #000;
 }
