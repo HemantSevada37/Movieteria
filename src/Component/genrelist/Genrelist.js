@@ -23,25 +23,6 @@ return (
 )
 }
 
-// const Genrelist = () => {
-//     const { genreId, setGenreId } = useContext(DataContext);
-
-//   return (
-//     <div className='genrelist'>
-//       {genres.map((element, i)=>{
-//         if(genreId.includes(element.id)){
-//             return <div key={i} className='genreitem activegenre'
-//                     onClick={()=>{setGenreId(genreId.filter((e)=>e!==element.id))}}
-//                     >{element.name}</div>
-//         }
-//         return <div key={i} className='genreitem normalgenre' 
-//                     onClick={()=>setGenreId([...genreId, element.id])}
-//                     >{element.name}</div>
-//       })}
-//     </div>
-//   )
-// }
-
 export default Genrelist
 
 
