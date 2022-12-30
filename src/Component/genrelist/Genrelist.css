@@ -1,0 +1,23 @@
+.genrelist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height: 50px; */
+    padding-bottom: 30px;
+}
+
+.genrelist > .genreitem{
+    border: 1px solid #5CDB95;
+    padding: 5px 10px;
+    margin: 5px 0.5vw;
+}
+.genrelist > .activegenre{
+    background-color: #5CDB95;
+    color: #fff;
+}
+.genrelist > .normalgenre:hover {
+    background-color: #97e4b4;
+
+}
+

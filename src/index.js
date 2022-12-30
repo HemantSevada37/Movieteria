@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { DataContextProvider } from './context/dataContext';
+import { SmContextProvider } from './context/smContext';
+import { ThemeContextProvider } from './context/themeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeContextProvider>
+      <SmContextProvider>
+        <DataContextProvider>
+          <App />
+        </DataContextProvider>
+      </SmContextProvider>
+    </ThemeContextProvider>
   </React.StrictMode>
 );
 
